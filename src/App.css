@@ -26,3 +26,39 @@ section {
   padding: 2em;
   border-bottom: 1px solid #eee;
 }
+/* Resume section styles */
+.resume-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.resume-container h2 {
+  font-size: 2rem;
+  color: #0b5ed7;
+  margin-bottom: 1rem;
+}
+
+.download-btn {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding: 12px 24px;
+  background-color: #0b5ed7;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.download-btn:hover {
+  background-color: #094ab2;
+  transform: translateY(-2px);
+}
+
+.pdf-viewer {
+  height: 600px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
