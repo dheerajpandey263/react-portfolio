@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Use HashRouter
 import { AnimatePresence } from "framer-motion";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
@@ -18,7 +18,7 @@ import "./index.css"; // Using Tailwind directives here
 function App() {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50 text-gray-800">
-      <Router basename="/react-portfolio">
+      <Router>
         <Navbar />
         <main className="flex-1">
           <AnimatePresence mode="wait">
@@ -33,12 +33,12 @@ function App() {
         </main>
         <footer className="flex flex-col md:flex-row justify-between items-center gap-3 py-6 px-4 bg-gray-200 text-gray-600 text-sm">
           {/* Left: Copyright */}
-          <p>
+          <p className="text-center md:text-left">
             © {new Date().getFullYear()} Dheeraj Pandey. All rights reserved.
           </p>
 
           {/* Right: Social Links */}
-          <div className="flex gap-4 text-gray-600 justify-end w-full md:w-auto">
+          <div className="flex gap-4 justify-center md:justify-end w-full md:w-auto">
             <a
               href="mailto:dheerajpandey263@gmail.com"
               target="_blank"
