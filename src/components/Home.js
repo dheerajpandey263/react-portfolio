@@ -21,7 +21,7 @@ const Home = () => (
 
       {/* Title/Description */}
       <p className="text-base sm:text-lg md:text-xl text-center max-w-xl leading-relaxed">
-        React Native Developer with 2.7+ years of experience delivering high-quality cross-platform mobile apps with a focus on UI/UX and performance.
+        React Native Developer with 3.5+ years of experience delivering high-quality cross-platform mobile apps with a focus on UI/UX and performance.
       </p>
 
       {/* Resume Button */}
