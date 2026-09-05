@@ -23,7 +23,7 @@ const Contact = () => {
         "service_kje2c5v", // your EmailJS Service ID
         "template_umjktrm", // your EmailJS Template ID
         { email, message }, // template parameters
-        "9MeO7DRYtQZ_oUAvq" // your EmailJS Public Key
+        "3_PEPTinf4zFxP9Vr" // your EmailJS Public Key
       )
       .then(
         () => {
